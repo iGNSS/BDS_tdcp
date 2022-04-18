@@ -8,7 +8,7 @@ load options.mat;
 fig=1;
 % load inf0871.mat;load obs0871.mat;load eph0871.mat;load iono0871.mat
 % load data_sanhuan.mat
-files.rinex='abpo3350.21o';
+files.rinex = 'abpo3350.21o';
 [obs,inf] = read_obsf(files,options);
 % [Eph, iono] = RINEX_get_nav('brdm3510.21p');brdm3350
 [Eph, iono] = RINEX_get_nav('brdm3350.21p');
